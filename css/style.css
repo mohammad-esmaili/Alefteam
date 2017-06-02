@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'iran_sansregular';
+    src: url('../fonts/iran_sans.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/iran_sans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iran_sans.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/iran_sans.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/iran_sans.svg#svgiran_sans') format('svg'); /* Legacy iOS */
+}
+.top-menu{
+    height: 5px;
+    background-image: url("../img/top-line.png");
+    background-repeat: repeat-x;
+}
+.logo, .logo img{
+    margin: 0 auto;
+    max-width: 220px;
+    max-height: 220px;
+}
+
+.aboutFirst,.aboutFirst p{
+
+    font-family: 'iran_sansregular';
+    font-size: 24px;
+}
+.aboutFirst h2{
+    font-size: 52px;
+    text-align: center;
+    font-weight: bold;
+}
+.aboutFirst h4{
+    font-size: 30px;
+    text-align: center;
+    color: #8e8e8e;
+}
+.aboutFirst p{
+margin-left:1em;
+margin-right:1em;
+}
+.menuList ul{
+    list-style-type: none;
+    text-align: center;
+}
+.menuList li,.menuList a{
+    float: right;
+    margin-left: 2em;
+    color: #0f0f0f;
+    font-size: 16px;
+
+}
+
+.menuList{
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+	width:100%;
+
+}
+.footer{
+    line-height:30px;
+    width:100%;
+    background:#F2F2F2;
+	border-top:1px solid #E4E4E4;
+	bottom:0;
+
+
+}
+
+
+
+.footermenuList ul{
+    list-style-type: none;
+    text-align: center;
+}
+.footermenuList li,.footermenuList a{
+    float: left;
+    margin-left: 1em;
+    color: #b1b1b1;
+    font-size: 16px;
+}
+.footermenuList li{
+    text-align: center;
+}
+.footermenuList{
+    float: left;
+    margin-right: 1em;
+    margin-top: 1em;
+		padding-bottom:1em;
+
+}
+.middleItem{
+	height: 100%;
+	float:right;
+}
+
+/**** responsive ****/
+#showMenu{
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 9999;
+}
+#showMenu a{
+    color: #ffffff;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+#showMenu a:hover{
+    background-color: #cccccc;
+	text-decoration:none;
+
+}
+#dogleMenu{
+
+    position: absolute;
+    background-color: #FF5A00;
+    display: none;
+
+}
+#showMenu ul{
+    list-style: none;
+}
+#showMenu li{
+    float: right;
+    padding: 1em;
+
+
+    margin: 1em;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+#dogleMenu span{
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 0.5em;
+}
+/**** end responsive ****/
+
+.service-box{
+height:500px;
+background-color:#e5e5e5;
+float:right;
+margin-bottom:10px;
+}
+.services h3{
+text-align:center;
+font-size:34px;
+margin-bottom:1em;
+}
+.services{
+margin:0 auto;
+}
+
+.iconbox{
+    font-size: 36px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.iconbox span{
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 30px;
+}
+.service-box{
+   font-family: 'iran_sansregular';
+}
+.service-box p{
+    font-size: 1.5em;
+    text-align: left;
+
+}
+.service-box h3{
+    font-size: 3em;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+#purple{
+    background-color: #953491;
+}
+#orange{
+    background-color: #ff5a00;
+}
+#green{
+    background-color: #039243;
+}
+#blue{
+    background-color: #01ace4;
+}
+
+.Portfolio h3{
+text-align:center;
+font-size:34px;
+margin-bottom:1em;
+}
+
+.Portfolio h4{
+text-align:center;
+font-size:22px;
+color: #616161;
+margin-bottom: 1em;
+}
+
+.Portfolio{
+margin:0 auto;
+}
+#red-c{
+    color: #a6a6a6;
+}
+
+.gotoaddress{
+    width: 50%;
+    margin-bottom: 2em !important;
+    text-align: center;
+    font-size: 24px;
+   font-family: 'iran_sansregular';
+   margin: 0 auto;
+   background-color: red;
+}
+.gotoaddress a{
+       color: #ffffff;
+       text-decoration: none;
+}
+.light-green{
+    background-color: #9ad008;
+}
+.nemoonekar h4{
+  font-family: 'iran_sansregular';
+font-size: 30px;
+
+}
+.nemoonekar p{
+  line-height: 30px;
+  font-family: 'iran_sansregular';
+font-size: 20px;
+}
+
+.float-r{
+  float: right;
+}
+.float-l{
+  float: left;
+}
+.margin2{
+  margin-top: 2em;
+}
+
+
+
+
+
+
+.contact-num h4{
+    font-size: 3em;
+    color: #989293;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+mboxFactories.get('default').get('target-global-mbox',1).cancelTimeout();mboxFactories.get('default').get('target-global-mbox',1).setOffer(new mboxOfferDefault()).show();

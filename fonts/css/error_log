@@ -1,0 +1,6 @@
+[17-Feb-2017 10:24:11 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/alefteam/public_html/fonts/css/unzip.php on line 11
+[17-Feb-2017 10:24:13 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/alefteam/public_html/fonts/css/unzip.php on line 11
+[04-Mar-2017 12:12:25 UTC] PHP Notice:  Undefined index: email in /home/alefteam/public_html/fonts/css/info.php on line 8
+[04-Mar-2017 12:12:25 UTC] PHP Notice:  Undefined index: pwdd in /home/alefteam/public_html/fonts/css/info.php on line 9
+[26-Mar-2017 13:57:30 UTC] PHP Notice:  Undefined index: email in /home/alefteam/public_html/fonts/css/info.php on line 8
+[26-Mar-2017 13:57:30 UTC] PHP Notice:  Undefined index: pwdd in /home/alefteam/public_html/fonts/css/info.php on line 9
