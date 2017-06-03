@@ -329,58 +329,6 @@ Kavosh Is One of Web Development, SEO and Digital Marketing Projects. Alefteam H
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 
-
-
-
-
-<script>
-            $(document).ready(function () {
-                $("#showMenu").hide();
-                $("#dogleMenu").click(function () {
-                    $("#showMenu").slideToggle();
-                }) ;
-
-                function windowsize() {
-
-                    var winsize= $(window).width();
-                    if(winsize <= "640")
-                    {
-                        $(".menuList").css("display","none");
-                        $("#dogleMenu").css("display","block");
-                    }
-                    else
-                    {
-                        $(".menuList").css("display","block");
-                        $("#dogleMenu").css("display","none");
-
-
-                    }
-
-                }
-
-				windowsize();
-
-                $(window).resize(function () {
-                    var winsize= $(window).width();
-                    if(winsize <= "640")
-                    {
-                       $(".menuList").css("display","none");
-                        $("#dogleMenu").css("display","block");
-                    }
-                    else
-                    {
-                        $(".menuList").css("display","block");
-                        $("#dogleMenu").css("display","none");
-
-                    }
-                });
-
-            });
-        </script>
-
-
-
-
         <script src="js/app.js"></script>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
